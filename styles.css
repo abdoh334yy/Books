@@ -20,7 +20,7 @@
     display: flex;
     list-style: none;
   }
-  .nav-links a {
+  .nav-link a {
     text-decoration: none;
     padding: 0 10px ;
   color: #000;
