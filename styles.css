@@ -1,0 +1,186 @@
+* {
+    margin: 0;
+  }
+  #header-img {
+    width: 60px;
+    object-fit: contain;
+  }
+  #nav-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly ;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    padding: 10px;
+    background-color: #fff;
+    width: 100%;
+  }
+  .nav-link {
+    display: flex;
+    list-style: none;
+  }
+  .nav-links a {
+    text-decoration: none;
+    padding: 0 10px ;
+  color: #000;
+  font-weight: 600;
+  }
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  .topic {
+    font-size: 25px ;
+    margin-left: 10px;
+    font-weight: 500;
+    font-family: 'Protest Riot', sans-serif; 
+   
+  }
+  body {
+    background-color: #f2e9e4
+  }
+  #email-section {
+    margin-top: 100px
+  }
+  section {
+    margin: 40px 20px;
+    text-align: center;
+  
+  }
+  input {
+    padding: 8px;
+    border-radius: 5px ;
+    border: 1px solid #a3cef1;
+  }
+  #submit {
+    background-color: #274c77;
+    color: #fff;
+    cursor: pointer;
+  }
+  h2 {
+    margin-bottom: 10;
+    }
+    .icon {
+      color: #284b63;
+      margin-right: 30px;
+    }
+    #features {
+      text-align: left;
+      max-width: 800px;
+      margin: auto;
+    }
+    .features {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin: 20px;
+    }
+    #video {
+      width: 100%;
+    }
+    .book-image {
+      width: 100%;
+      margin: auto;
+      height: 500px;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 10px 10px 0 0;
+      border: 1px solid #fff;
+    }
+    .book1 {
+      background-image: url(https://markmanson.net/wp-content/themes/mm-main/images/books-subtle-art.png)
+    }
+    .book2 {
+      background-image: url(https://www.whitcoulls.co.nz/content/products/6519454_MAIN.jpg?enable=upscale&canvas=2:3&auto=webp&optimize=high&width=360)
+    }
+    .book3 {
+      background-image: url(https://miro.medium.com/v2/resize:fit:893/1*OtxsMJ5huAFwANLR6lONyw.jpeg)
+    }
+    .card {
+      background-color: #fff;
+      border-radius: 10px;
+      width: 90%;
+      margin: auto;
+      margin-bottom: 10px;
+    }
+    .inner-image {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      padding: 10px;
+    }
+    .content {
+      margin-bottom: 10px;
+    }
+    .flex {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .main-price {
+      margin-right: 20px;
+      font-size: 30px;
+      color: #3c6e71
+    }
+    .old-price {
+      text-decoration: line-through;
+      color: grey;
+    }
+    .author {
+      letter-spacing: 5px;
+      color: black;
+      text-transform: uppercase;
+    }
+    .header {
+      margin: 10px 0;
+      color: darkgrey;
+    }
+    .add {
+      background-color: #274c77;
+      color: #fff;
+      cursor: pointer;
+      padding: 15px;
+      border: none;
+      border-radius: 10px;
+      width: 100%;
+      font-weight: 500;
+      margin-bottom: 10px;
+    }
+    @media only screen and (min-width: 600px) {
+      #nav-bar {
+  flex-direction: row;
+      }
+    }
+    @media only screen and (450px < width < 600px) {
+      .card {
+        font-size: 0.85rem;
+      }
+      .book-image {
+        height: 400px;
+      }
+    }
+    @media only screen and (450px <= width ) {
+      .card {
+        display: flex;
+        max-width: 525px;
+      }
+      .inner-image {
+        width: 300px;
+        padding: 20px;
+      }
+      .book-image {
+        width: 400px;
+        border-radius: 10px 0 0 10px;
+      }
+    }
+  @media only screen and (width >= 1000px) {
+    #video {
+      width:70%;
+        }
+        .cards {
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrop;
+        }
+  }
